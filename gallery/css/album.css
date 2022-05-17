@@ -1,0 +1,24 @@
+/*Gridbox där alla bilder läggs i varsin lika stor del*/
+.album {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 20vh 40vh;
+grid-auto-flow: dense;
+grid-gap: 2rem;
+margin-top: 10vh;
+}
+
+/*Styling (bilders storlek mest)*/
+.album > div > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/*Sätter to top texten i mitten*/
+#totop {
+  text-align: center;
+}
