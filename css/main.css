@@ -29,6 +29,16 @@ li a {
   float: left;
   font-size: 2rem;
   border-right: 1px solid #bbb;
+}
+.active {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3vh 8vw;
+  text-decoration: none;
+  float: left;
+  font-size: 2rem;
+  border-right: 1px solid #bbb;
 
 }
 /*Ändra färgen när muspekaren ligger över, lättare att navigera*/
