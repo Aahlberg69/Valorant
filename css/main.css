@@ -15,6 +15,10 @@ ul {
   overflow: hidden;
   background-color: rgb(4, 45, 51);
 }
+
+h1 {
+  color: white;
+}
 /*Navbar styling för länkarna (De är i mitten av sin del, länkarna som är block har "padding" runt om sig osv)*/
 li a {
   display: block;
