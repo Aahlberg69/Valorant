@@ -24,7 +24,10 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 3vh 8vw;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-decoration: none;
   float: left;
   font-size: 2rem;
@@ -34,7 +37,10 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 3vh 8vw;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-decoration: none;
   float: left;
   font-size: 2rem;
@@ -63,28 +69,98 @@ width: 8vw;
 }
 
 /*Följande är mobilanpassningar*/
+@media only screen and (max-width: 1600px) {
+  .active {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  li a {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .active {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+  li a {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
 @media only screen and (max-width: 1000px) {
   a {
     font-size: 1.3rem !important;
   }
+  .active {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    }
+  li a {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 17px;
+    padding-bottom: 17  px;
+    }
+  .active {
+    font-size: 1.3rem
 }
 @media only screen and (max-width: 800px) {
   a {
     font-size: 1rem !important;
   }
+  .active {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+  li a {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+  .active {
+      font-size: 1rem
+  }
 }
 @media only screen and (max-width: 900px) {
   a {
     font-size: 1.1rem !important;
-    padding: 3vw 6vh !important;
   }
-  img {
-  }
+  .active {
+    font-size: 1.1rem
+}
 }
 @media only screen and (max-width: 580px) {
   a {
     font-size: 0.8rem !important;
-    padding: 6vw 4vh !important;
+  }
+  .active {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+  li a {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+  .active {
+    font-size: 0.8rem
   }
 }
 @media only screen and (max-width: 400px) {
